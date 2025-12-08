@@ -1,6 +1,6 @@
 zeroesfound = 0
 location = 50
-with open("Q1 inputs.txt",) as file:
+with open("Q1 inputs.txt") as file:
     for line in file:
         amount = int(line.strip()[1:])
         multiplier = 1 if line[0] == "R" else -1
