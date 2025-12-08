@@ -6,4 +6,4 @@ with open("Q1 inputs.txt",) as file:
         multiplier = 1 if line[0] == "R" else -1
         location = (location + (amount * multiplier)) % 100
         zeroesfound += 1 if location == 0 else 0
-print("Solution to Q1: ", zeroesfound)
+print("There were ", zeroesfound, " zeroes.")
